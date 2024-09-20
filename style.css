@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #ffffff;
+}
+
+h2{
+    font-size: 1em;
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    padding: 12px;
+    height: 50%;
+}
+
+.container-input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1em;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0.5em;
+}
+
+#inputMeta{
+    padding: 4px;
+    font-size: 1em;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 0.5em;
+}
+
+.button-input-enviar{
+    padding: 4px;
+    font-size: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: rgb(0, 162, 255);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-input-enviar:hover, .button-input-enviar:focus{
+    transition: 1s;
+    transform: translateY(-0.10em);
+    background-color: rgb(4, 104, 161);
+}
+
+.button-input-resetar{
+    padding: 4px;
+    font-size: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-input-resetar:hover, .button-input-resetar:focus{
+    transition: 1s;
+    transform: translateY(-0.10em);
+    background-color: rgb(185, 8, 8);
+}
+
+.meta{
+    padding: 1em 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(0, 162, 255);
+}
+
+#inicialMeta{
+    color: #000;
+}
+
+#valorMeta{
+    color: #000;
+}
+
+.container-medidas{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.div-medida{
+    padding: 12px;
+    margin-bottom: 1em;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0.5em;
+}
+
+.botaoAdd{
+    width: 100px;
+    padding: 6px;
+    font-weight: 600;
+    color: rgb(0, 162, 255);
+    margin-bottom: 0.2em;
+    cursor: pointer;
+}
+
+.botaoRemove{
+    width: 100px;
+    padding: 6px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.botaoAdd:hover, .botaoAdd:focus{
+    transition: 500ms;
+    transform: translateY(-0.10em);
+    box-shadow: 0px 8px 8px -3px rgba(0, 162, 255, 0.25);
+}
+
+.botaoRemove:hover, .botaoRemove:focus{
+    transition: 500ms;
+    transform: translateY(0.10em);
+    box-shadow: 0px -8px 8px -3px rgba(255, 0, 0, 0.25);
+}
+
+.input-add-remove{
+    width: 100px;
+    padding: 6px;
+}
+
+.icon-agua{
+    width: 16px;
+}
